@@ -132,6 +132,25 @@ body {
 
 }
 .logo{
-  display: block;
+  display: inline-block;
   
+}
+.text-dark{
+  color: $gray-dark;
+}
+
+.bg{
+  &-google{
+    background-color:#FF7879;
+
+  }
+  &-twitter {
+    background-color: #7aafff;
+
+  }
+  &-instagram {
+    background-color: #ffb978;
+
+  }
+
 }
